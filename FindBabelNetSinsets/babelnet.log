@@ -1,0 +1,121 @@
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM /home/ccx/babelfy/BabelNet-API-2.5.1/config/babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-API-2.5.1/dict
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM /home/ccx/babelfy/BabelNet-API-2.5.1/config/babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/dict
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM /home/ccx/workspace/aux/config/babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5.1 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/dict
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: /home/ccx/babelfy/BabelNet-2.5/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM /home/ccx/workspace/aux/config/babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5.1 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/dict
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: /home/ccx/babelfy/BabelNet-2.5/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM /home/ccx/workspace/aux/config/babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5.1 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/dict
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: /home/ccx/babelfy/BabelNet-2.5/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM /home/ccx/workspace/aux/config/babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5.1 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/dict
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: /home/ccx/babelfy/BabelNet-2.5/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: /home/ccx/babelfy/BabelNet-2.5/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: /home/ccx/babelfy/BabelNet-2.5/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: /home/ccx/babelfy/BabelNet-2.5/graph_CC_BY_NC_SA_30

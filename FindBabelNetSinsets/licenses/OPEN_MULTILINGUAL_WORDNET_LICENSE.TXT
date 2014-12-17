@@ -1,0 +1,8 @@
+Open Multilingual Wordnet
+
+Documentation of and links to data for wordnets in 23 languages
+ (Albanian, Arabic, Danish, English, Persian, Finnish, French, Hebrew, Italian, Japanese, Basque, Catalan, Galician, Spanish,
+  Indonesian, Malaysian, Norwegian (Bokmal and Nynorsk), Portuguese, Thai, Greek, Polish, Chinese, Swedish). Size, quality and license varies widely, 
+  but all licenses are open licenses that allow redistribution. 
+
+info: http://www.casta-net.jp/~kuribayashi/multi/
