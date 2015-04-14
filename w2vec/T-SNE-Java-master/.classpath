@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="tsne-core/src/main/java"/>
+	<classpathentry kind="src" path="tsne-demos/src/main/java"/>
+	<classpathentry kind="lib" path="tsne-demos/extralibs/jmathplot-1.0.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-simple-0.27-sources.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-simple-0.27.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-equation-0.27-sources.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-equation-0.27.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-denseC64-0.27-sources.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-denseC64-0.27.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-dense64-0.27-sources.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-dense64-0.27.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-core-0.27-sources.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-core-0.27.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/Jama-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/home/ccx/work/T-SNE-Java-master/junit-4.12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

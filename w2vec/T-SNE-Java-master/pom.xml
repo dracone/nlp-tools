@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project T-SNE-Java-master">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="/home/ccx/work/T-SNE-Java-master/TSneDemo.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="com.jujutsu.tsne.demos.TSneDemo"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="/home/ccx/work/T-SNE-Java-master/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/tsne-demos/extralibs/jmathplot-1.0.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-simple-0.27-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-simple-0.27.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-equation-0.27-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-equation-0.27.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-denseC64-0.27-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-denseC64-0.27.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-dense64-0.27-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-dense64-0.27.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-core-0.27-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/ejml-v0.27-libs/EJML-core-0.27.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/Jama-1.0.3.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/ccx/work/T-SNE-Java-master/junit-4.12.jar"/>
+        </jar>
+    </target>
+</project>
