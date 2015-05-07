@@ -1,5 +1,7 @@
 # encoding: utf-8
 
+#Needs to be inside translatedesk-api/test/models/ Folder. Execute: ~/work/translatedesk-api$ sudo bundle exec ruby test/models/test_TM.rb
+
 require File.join(File.expand_path(File.dirname(__FILE__)), '..', 'test_helper')
 load File.join(File.expand_path(File.dirname(__FILE__)), '..', '..', 'lib', 'glossary.rb')
 require 'glossary'
