@@ -1,0 +1,144 @@
+App to run the test: http://localhost:9200/_plugin/marvel/sense/index.html
+server:localhost:9200/
+Compare with: http://mymemory.translated.net/en/English/French/the-book-is-on-the-table
+++++++++
+The Test Script:
+
+DELETE /tm_index 
+
+PUT /tm_index
+{ "settings": { "number_of_shards": 2 }} 
+
+
+
+POST /tm_index/my_type/_bulk
+{"index": {"_id":  1 }}
+{ "en":"the pen is on the table","fr":"le plume est sur la table"}
+{"index": {"_id":  2 }}
+{ "en":"That is on the table.","fr":"Elle est sur la table."}
+{"index": {"_id":  3 }}
+{ "en":"This is all on the table.","fr":"C'est tout cela qui est sur la table."}
+{"index": {"_id":  4 }}
+{ "en":"This work is now on the table.","fr":"Ils sont maintenant sur la table."}
+{"index": {"_id":  5 }}
+{ "en":"It is still on the table.","fr":"Il est toujours sur la table des négociations."}
+{"index": {"_id":  6 }}
+{ "en":"Everything is laid out on the table.","fr":"On pourra discuter de tous les problèmes."}
+{"index": {"_id":  7 }}
+{ "en":"That result is on the table today.","fr":"C' est ce dernier qui est présenté aujourd'hui."}
+{"index": {"_id":  8 }}
+{ "en":"Everything else is already on the table.","fr":"Tous les autres amendements ont déjà été déposés."}
+{"index": {"_id":  9 }}
+{ "en":"The Blue Book is available on the ECB's website.","fr":"Ce document peut être consulté sur le site Internet de la BCE."}
+{"index": {"_id":  10 }}
+{ "en":"The book is extraordinary.","fr":"Le livre est extraordinaire."}
+{"index": {"_id":  11 }}
+{ "en":"The referendum law is on the books.","fr":"La Loi référendaire existe."}
+{"index": {"_id":  12 }}
+{ "en":"The book is not closed''.","fr":"Le dossier n'est pas clos.»"}
+{"index": {"_id":  13 }}
+{ "en":"That is not even on the record books.","fr":"Il n'a pas été condamné."}
+{"index": {"_id":  14 }}
+{ "en":"That is what it is on the books for.","fr":"C'est pour cela qu'elle a été prévue."}
+{"index": {"_id":  15 }}
+{ "en":"Coffee table book","fr":"Beau livre"}
+{"index": {"_id":  16 }}
+{ "en":"Select the data table for your address book.","fr":"Sélectionnez la table de données de votre carnet d'adresses."}
+{"index": {"_id":  17 }}
+{ "en":"Coffee table book","fr":"Beaux livres"}
+{"index": {"_id":  18 }}
+{ "en":"There is not even a record on the books.","fr":"Il peut prendre ainsi un demi-million de dollars et ce montant n'est même pas inscrit dans les registres."}
+{"index": {"_id":  19 }}
+{ "en":"I will explain once again that the financial statement is of course submitted not only to the European Court of Auditors but also to the Council and Parliament  in other words the books are open on the table.","fr":"Je souhaite souligner encore une fois que les états financiers ne sont pas seulement présentés à la Cour des comptes européenne  mais également au Conseil et au Parlement  les livres sont ouverts sur la table."}
+{"index": {"_id":  20 }}
+{ "en":"electronic coffee-table book","fr":"album électronique"}
+
+GET /tm_index/my_type/_search
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match": { 
+          "en": {
+            "query":"the book is on the table",
+            "minimum_should_match": "65%"
+          }
+        }
+      }
+    }
+  }
+} 
+
+
+
+###########
+Second test
+http://mymemory.translated.net/en/English/French/he-broke-a-leg
+
+
+
+DELETE /tm_index 
+
+PUT /tm_index
+{ "settings": { "number_of_shards": 2 }} 
+
+
+OST /tm_index/my_type/_bulk
+{"index": {"_id":  1 }}
+{ "en":"the pen is on the table","fr":"le plume est sur la table"}
+{"index": {"_id":  2 }}
+{ "en":"He broke his word.", "fr": "Il a manqué à sa parole."}
+{"index": {"_id":  3 }}
+{ "en":"broke", "fr": "cassés de fabrication"}
+{"index": {"_id":  4 }}
+{ "en":"Broke", "fr": "Broke"}
+{"index": {"_id":  5 }}
+{ "en":"He broke his promise.", "fr": "Il n'a pas respecté sa promesse."}
+{"index": {"_id":  6 }}
+{ "en":"But he broke that promise.", "fr": "Il a manqué à sa promesse."}
+{"index": {"_id":  7 }}
+{ "en":"The nanny broke a rule.", "fr": "Parce que la bonne d'enfants a violé une règle."}
+{"index": {"_id":  8 }}
+{ "en":"He broke the agreement himself.", "fr": "Il a lui-même annulé l'entente."}
+{"index": {"_id":  9 }}
+{ "en":"He continually broke his promises.", "fr": "Il n'a cessé de violer ses promesses."}
+{"index": {"_id":  10 }}
+{ "en":"He simply said it broke its word.", "fr": "Il a simplement dit que le pays n'avait pas tenu parole."}
+{"index": {"_id":  11 }}
+{ "en":"break a frog leg", "fr": "casser une patte de grenouille"}
+{"index": {"_id":  12 }}
+{ "en":"We broke into a male preserve - politics", "fr": "Nous faisions intrusion dans un domaine exclusivement réservé aux hommes - dans la politique"}
+{"index": {"_id":  13 }}
+{ "en":"He broke his promise to end Senate patronage.", "fr": "Il a renié sa promesse de mettre fin au favoritisme dans les nominations au Sénat."}
+{"index": {"_id":  14 }}
+{ "en":"leg", "fr": "pédoncule du cerveau"}
+{"index": {"_id":  15 }}
+{ "en":"leg", "fr": "branche de circuit"}
+{"index": {"_id":  16 }}
+{ "en":"leg", "fr": "cuisse"}
+{"index": {"_id":  17 }}
+{ "en":"The member opposite is fearmongering and he does not have a leg to stand on.", "fr": "Ce que mon collègue fait, c'est de semer la peur dans la population, et il le fait à tort."}
+{"index": {"_id":  18 }}
+{ "en":"He attacked this machine and after a short burst it broke up in the air.", "fr": "Il a attaqué cet avion qui, après une petite explosion, s'est brisé dans les airs."}
+{"index": {"_id":  19 }}
+{ "en":"leg of a chair", "fr": "métaphore morte"}
+{"index": {"_id":  20 }}
+{ "en":"While tearing down a part of the collapsed barn he fell through the roof and broke his hip.", "fr": "Il était à démonter une partie de la grange en ruines lorsqu'il est passé à travers le toit et s'est cassé la hanche."}
+{"index": {"_id":  21 }}
+{ "en":"A sportsman should have obeyed the referee when he blew the whistle when somebody broke the rules.", "fr": "Tout sportif aurait obéi au coup de sifflet de l' arbitre signalant une faute."}
+
+GET /tm_index/my_type/_search
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match": { 
+          "en": {
+            "query":"he broke a leg",
+            "minimum_should_match": "65%"
+          }
+        }
+      }
+    }
+  }
+} 
